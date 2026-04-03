@@ -51,13 +51,10 @@ const channels = [
 
 const GetInTouch = ({ className }: GetInTouchProps) => {
   return (
-    <section className={cn("py-32", className)}>
+    <section id="contact-us" className={cn("py-32", className)}>
       <div className="container">
         {/* Header */}
         <div className="mx-auto mb-16 max-w-2xl text-center">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-primary">
-            Contact Us
-          </p>
           <h2 className="mb-4 text-4xl font-bold tracking-tight md:text-5xl">
             Let&apos;s Start a Conversation
           </h2>

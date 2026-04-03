@@ -62,7 +62,7 @@ const Timeline4 = () => {
   const height = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
   return (
-    <section className="flex flex-col items-center">
+    <section id="about-us" className="flex flex-col items-center">
       <div className="container flex items-center flex-col gap-6 py-4 lg:py-8">
         <Badge
           variant="outline"

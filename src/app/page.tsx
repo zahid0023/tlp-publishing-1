@@ -1,7 +1,9 @@
 import { Cta18 } from "@/components/cta18";
 import { Feature211 } from "@/components/feature211";
+import { Footer } from "@/components/footer";
 import { GetInTouch } from "@/components/get-in-touch";
 import { Hero243 } from "@/components/hero243";
+import { Navbar1 } from "@/components/navbar1";
 import { Pricing12 } from "@/components/pricing12";
 import { Timeline12 } from "@/components/timeline12";
 import { Timeline4 } from "@/components/timeline4";
@@ -10,6 +12,7 @@ import { Timeline5 } from "@/components/timeline5";
 export default function Home() {
   return (
     <main className="mx-auto flex flex-col justify-center items-center w-full h-full">
+      <Navbar1 />
       <Hero243 />
       <Timeline4 />
       <Timeline12 />
@@ -18,6 +21,7 @@ export default function Home() {
       <Pricing12 />
       <Cta18 />
       <GetInTouch />
+      <Footer />
     </main>
   );
 }

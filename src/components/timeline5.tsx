@@ -62,7 +62,7 @@ interface Timeline5Props {
 
 const Timeline5 = ({ className }: Timeline5Props) => {
   return (
-    <section className={cn("py-32", className)}>
+    <section id="our-services" className={cn("py-32", className)}>
       <div className="container">
         <div className="grid gap-8 sm:gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Left Column - Fixed Content */}

@@ -137,7 +137,7 @@ interface Pricing12Props {
 
 const Pricing12 = ({ className }: Pricing12Props) => {
   return (
-    <section className={cn("py-32", className)}>
+    <section id="pricing" className={cn("py-32", className)}>
       <div className="container">
         <div className="rounded-xl border border-border py-6 md:py-8 lg:pt-16">
           <div className="px-6 md:px-8 lg:px-12">
