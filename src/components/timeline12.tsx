@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { DownloadIcon } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import { BookAppointmentButton } from "@/components/book-appointment-button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cn } from "@/lib/utils";
@@ -117,10 +118,7 @@ const Timeline12 = ({ className }: Timeline12Props) => {
         </Tabs>
 
         <div className="mt-22">
-          <Button className="group relative h-14 overflow-hidden rounded-full bg-black px-8 text-base font-semibold tracking-wide text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl dark:bg-white dark:text-black hover:cursor-pointer">
-            <span className="relative z-10 flex items-center gap-2">Book An Appointment <span className="transition-transform duration-300 group-hover:translate-x-1">→</span></span>
-            <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-500 group-hover:translate-x-full" />
-          </Button>
+          <BookAppointmentButton />
         </div>
       </div>
     </section>

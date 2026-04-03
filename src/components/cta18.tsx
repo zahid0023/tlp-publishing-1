@@ -1,6 +1,4 @@
-import { Play } from "lucide-react";
-
-import { Button } from "@/components/ui/button";
+import { BookAppointmentButton } from "@/components/book-appointment-button";
 import { cn } from "@/lib/utils";
 
 interface Cta18Props {
@@ -20,12 +18,7 @@ const Cta18 = ({ className }: Cta18Props) => {
               We'd love to help! Schedule a quick 15-30 minute call to discuss your business needs and we'll match you with the perfect plan.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-              <Button className="bg-gradient-to-r from-indigo-600 to-purple-600
-                   text-white font-bold text-lg px-10 py-5 rounded-xl
-                   shadow-2xl hover:shadow-3xl hover:-translate-y-2
-                   transition-all duration-300 ease-in-out hover:cursor-pointer">
-                Schedule a Call
-              </Button>
+              <BookAppointmentButton label="Schedule a Call" />
             </div>
           </div>
           <div className="relative ml-6 max-h-96 md:mt-8 md:ml-0">

@@ -6,7 +6,7 @@ import { useRef } from "react";
 
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
-import { Button } from "./ui/button";
+import { BookAppointmentButton } from "@/components/book-appointment-button";
 
 const DATA = [
   {
@@ -144,10 +144,7 @@ const Timeline4 = () => {
       </div>
 
       <div>
-        <Button className="group relative h-14 overflow-hidden rounded-full bg-black px-8 text-base font-semibold tracking-wide text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl dark:bg-white dark:text-black hover:cursor-pointer">
-          <span className="relative z-10 flex items-center gap-2">Book An Appointment <span className="transition-transform duration-300 group-hover:translate-x-1">→</span></span>
-          <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-500 group-hover:translate-x-full" />
-        </Button>
+        <BookAppointmentButton />
       </div>
     </section>
   );
